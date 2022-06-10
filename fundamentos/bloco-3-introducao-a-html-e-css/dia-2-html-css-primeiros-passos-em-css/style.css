@@ -1,0 +1,44 @@
+body {
+    font-size: 16px;
+}
+
+#titulo {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.naoOrdenada {
+    background-color: aquamarine;
+}
+
+p,
+ul {
+    background-color: blueviolet;
+   
+}
+
+li {
+    background-color: darkgreen;
+    font-style: italic;
+    line-height: 200px;
+    text-align: center;
+}
+
+#paragrafo {
+    font-weight: 600;
+    size: 3em;
+    text-decoration:line-through;
+}
+#amarelo
+{
+    background-color: yellow;
+}
+#vermelho
+{
+    background-color: red;
+}
+#marrom 
+{
+    background-color: brown;
+}
