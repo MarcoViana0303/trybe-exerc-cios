@@ -1,18 +1,61 @@
-h1,
-p {
-    text-align: center;
-
+div:hover {
+   
+    border-color: blue;
+    
+    border-style:ridge;
 }
 
-li:hover{
-    background-color: blue;
-
+.um 
+{
+    background-color:red;
+}
+.dois
+{
+    background-color: orange;
+}
+.três
+{
+    background-color: gray;
+    height: 60px;
+}
+.quatro
+{
+    background-color: brown;
+}
+.cinco
+{
+    background-color: cyan;
 }
 
-li:active {
-    font-family:Arial, Helvetica, sans-serif;
+#primeiro 
+{
+    text-decoration-style: dotted;
+    
+    font-style: italic;
 }
 
-li {
-    list-style: none;
+#segundo
+{
+    text-decoration-style:double;
+    font-style:inherit;
 }
+
+#terceiro
+{
+    text-decoration-style: solid;
+    font-style: italic;
+}
+
+#quarto
+{
+    text-decoration-style:wavy;
+    font-style:unset;
+}
+
+#quinto 
+{
+    text-decoration-style:inherit;
+    font-style: italic;
+}
+
+
