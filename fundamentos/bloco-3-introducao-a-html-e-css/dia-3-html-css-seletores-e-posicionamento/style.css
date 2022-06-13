@@ -1,61 +1,46 @@
-div:hover {
-   
-    border-color: blue;
-    
-    border-style:ridge;
+.listaOrdenada:nth-child(even)
+{
+background-color: yellow;
+
 }
 
-.um 
+ol li.par 
 {
-    background-color:red;
-}
-.dois
-{
-    background-color: orange;
-}
-.três
-{
-    background-color: gray;
-    height: 60px;
-}
-.quatro
-{
-    background-color: brown;
-}
-.cinco
-{
-    background-color: cyan;
+    color:green;
 }
 
-#primeiro 
+ol li.impar
 {
-    text-decoration-style: dotted;
-    
-    font-style: italic;
+    text-transform: uppercase;
 }
 
-#segundo
+.header
 {
-    text-decoration-style:double;
-    font-style:inherit;
+color:red;
 }
 
-#terceiro
+.header em
 {
-    text-decoration-style: solid;
-    font-style: italic;
+border:1px solid black;
 }
 
-#quarto
+li 
 {
-    text-decoration-style:wavy;
-    font-style:unset;
+    font-size: 20px;
 }
 
-#quinto 
+li em 
 {
-    text-decoration-style:inherit;
-    font-style: italic;
+    font-weight: bold;
 }
 
+.fonteazul 
+{
+    color: blue;
+}
+
+.java
+{
+    background-color: pink;
+}
 
