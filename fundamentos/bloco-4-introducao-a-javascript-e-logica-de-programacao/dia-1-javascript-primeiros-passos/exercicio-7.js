@@ -1,6 +1,10 @@
-const nota = 90;
+const nota = 49;
 
-if (nota >= 90) {
+if (nota < 0 || nota > 100)
+{
+   console.log('Erro');
+}
+else if (nota >= 90) {
     console.log('A');
 }
 
