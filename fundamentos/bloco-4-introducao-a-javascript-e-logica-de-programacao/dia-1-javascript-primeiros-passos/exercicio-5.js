@@ -8,6 +8,7 @@ if (angulo1 + angulo2 + angulo3 === 180) {
 else if (angulo1 + angulo2 + angulo3 < 0) {
     console.log('Erro');
 }
+
 else
 {
     console.log(false);
